@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+        <loc>https://bonsailinse.net/README</loc>
+        
+        <lastmod>2020-07-03T00:50:41.625Z</lastmod>
+        
+    </url>
+    
+    <url>
         <loc>https://bonsailinse.net/hello-world/</loc>
         
         <lastmod>2020-07-03T00:37:37.623Z</lastmod>
