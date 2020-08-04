@@ -658,9 +658,13 @@ kbd {
 .highlight figcaption a {
   color: var(--highlight-foreground);
   float: right;
+  margin-right: 30px;
 }
 .highlight figcaption a:hover {
   border-bottom-color: var(--highlight-foreground);
+}
+.highlight .line.marked {
+  background: #293f51;
 }
 .highlight .gutter {
   -moz-user-select: none;
