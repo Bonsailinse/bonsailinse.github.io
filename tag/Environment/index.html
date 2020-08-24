@@ -24,13 +24,13 @@
 
   <meta property="og:type" content="website">
 <meta property="og:title" content="Bonsailinse">
-<meta property="og:url" content="https://bonsailinse.net/archive/">
+<meta property="og:url" content="https://bonsailinse.net/tag/Environment/">
 <meta property="og:site_name" content="Bonsailinse">
 <meta property="og:locale" content="de_DE">
 <meta property="article:author" content="Bonsailinse">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://bonsailinse.net/archive/">
+<link rel="canonical" href="https://bonsailinse.net/tag/Environment/">
 
 
 <script data-pjax id="page-configurations">
@@ -43,7 +43,7 @@
   };
 </script>
 
-  <title>Archiv | Bonsailinse</title>
+  <title>Tag: Environment | Bonsailinse</title>
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-12787052-2"></script>
     <script data-pjax>
@@ -243,7 +243,7 @@
       <div class="main-inner">
         
 
-        <div class="content archive">
+        <div class="content tag">
           
 
   
@@ -252,7 +252,9 @@
   <div class="post-block">
     <div class="posts-collapse">
       <div class="collection-title">
-        <span class="collection-header">Öhm..! Ein Post. Bleib dran.</span>
+        <h2 class="collection-header">Environment
+          <small>Tag</small>
+        </h2>
       </div>
 
       
@@ -279,7 +281,6 @@
 
     </header>
   </article>
-
 
     </div>
   </div>
@@ -441,6 +442,16 @@ if (document.querySelectorAll('pre.mermaid').length) {
   
 
   
+  <script src="//cdn.jsdelivr.net/npm/quicklink@2/dist/quicklink.umd.js"></script>
+  <script>
+      window.addEventListener('load', () => {
+      quicklink.listen({
+        timeout : 3000,
+        priority: true,
+        ignores : [uri => uri.includes('#'),uri => uri === 'https://bonsailinse.net/tag/Environment/',]
+      });
+      });
+  </script>
 
     </div>
 </body>

@@ -207,6 +207,14 @@
           <span class="site-state-item-name">Posts</span>
         </a>
       </div>
+      <div class="site-state-item site-state-categories">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">Kategorien</span>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">9</span>
+        <span class="site-state-item-name">Tags</span>
+      </div>
   </nav>
 </div>
 
@@ -241,7 +249,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="de">
-    <link itemprop="mainEntityOfPage" href="https://bonsailinse.net/hello-world/">
+    <link itemprop="mainEntityOfPage" href="https://bonsailinse.net/eine-neue-umgebung/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -255,7 +263,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
+            <a href="/eine-neue-umgebung/" class="post-title-link" itemprop="url">Eine neue Umgebung</a>
         </h2>
 
         <div class="post-meta">
@@ -264,10 +272,20 @@
                 <i class="far fa-calendar"></i>
               </span>
 
-              <time title="Erstellt: 02.07.2020 16:12:59" itemprop="dateCreated datePublished" datetime="2020-07-02T16:12:59+02:00">02.07.2020</time>
+              <time title="Erstellt: 23.08.2020 15:51:27" itemprop="dateCreated datePublished" datetime="2020-08-23T15:51:27+02:00">23.08.2020</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">in</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/category/Development/" itemprop="url" rel="index"><span itemprop="name">Development</span></a>
+                </span>
             </span>
 
           
+            <div class="post-description">Die Einrichtung einer Entwicklungsumgebung, die Grundlage einer guten Programmierung.</div>
 
         </div>
       </header>
@@ -278,20 +296,24 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Welcome to <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvLw==">Hexo<i class="fa fa-external-link-alt"></i></span>! This is your very first post. Check <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv">documentation<i class="fa fa-external-link-alt"></i></span> for more info. If you get any problems when using Hexo, you can find the answer in <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=">troubleshooting<i class="fa fa-external-link-alt"></i></span> or you can ask me on <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==">GitHub<i class="fa fa-external-link-alt"></i></span>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s">Writing<i class="fa fa-external-link-alt"></i></span></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=">Server<i class="fa fa-external-link-alt"></i></span></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s">Generating<i class="fa fa-external-link-alt"></i></span></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s">Deployment<i class="fa fa-external-link-alt"></i></span></p>
-
+          <p>Seit einiger Zeit wünscht sich mein Informatikerherz einen sauberen und übersichtlichen Workflow, wenn es um Softwareentwicklung geht. Bisher habe ich auf Projektbasis die entsprechenden Voraussetzungen geschaffen um dann beim nächsten Projekt die gleichen Vorbereitungen wieder treffen zu müssen.<br>Ich möchte endlich eine vernünftig eingerichtete Entwicklungsumgebung schaffen, bei der ich nach Bedarf zusätzliche Module einfügen kann, aber grundsätzlich für jedes meiner zukünftigen Projekte vorbereitet bin.</p>
+<p>Meine Anforderungen sind folgende:</p>
+<ul>
+<li>Minimaler Reproduktionsaufwand. Bei einem Umzug auf ein anderes System muss meine Umgebung ohne eine erneute, aufwendige Konfiguration einsatzbereit gemacht werden können.</li>
+<li>Zu 100 % nutzbar unter Windows 10, wobei ich, gerne mit Einschränkungen, hin und wieder am MacBook arbeiten möchte. Das Produktivsystem wird dann mit großer Wahrscheinlichkeit ein Unix-basiertes sein.</li>
+<li>Als IDE sollen hauptsächlich die Programme aus dem Hause JetBrains genutzt werden. PHPStorm, DataGrip, PyCharm und IntelliJ sind meine vertrauten Umgebungen und sollen nicht ersetzt werden.</li>
+<li>Momentan liegt der primäre Fokus meiner Projekte auf PHP und NodeJS, andere Systeme können gerne erst einmal ausgelassen werden.</li>
+<li>Die Dokumentation aller Projekte soll möglichst simpel und übersichtlich geschehen, die Versionskontrolle via GitHub zähle ich dazu. </li>
+</ul>
+<p>Nachdem ich zwischen verschiedenen Lösungen hin- und hergewechselt habe, habe ich nun ein für mich recht ordentliches Konzept niedergeschrieben.</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/eine-neue-umgebung/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -370,8 +392,6 @@
 
   
   <script src="/lib/anime.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
-  <script src="/lib/rater.min.js"></script>
   <script src="//cdn.jsdelivr.net/gh/next-theme/pjax@0/pjax.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/medium-zoom@1/dist/medium-zoom.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js"></script>
@@ -444,6 +464,19 @@ document.addEventListener('pjax:success', () => {
 
 
 
+<script data-pjax>
+if (document.querySelectorAll('pre.mermaid').length) {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js', () => {
+    mermaid.initialize({
+      theme    : 'dark',
+      logLevel : 3,
+      flowchart: { curve     : 'linear' },
+      gantt    : { axisFormat: '%m/%d/%Y' },
+      sequence : { actorMargin: 50 }
+    });
+  }, window.mermaid);
+}
+</script>
 
 
     <div id="pjax">

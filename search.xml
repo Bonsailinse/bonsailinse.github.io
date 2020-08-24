@@ -4,13 +4,41 @@
   
     
     <entry>
-      <title>Hello World</title>
-      <link href="/hello-world/"/>
-      <url>/hello-world/</url>
+      <title>Eine neue Umgebung</title>
+      <link href="/eine-neue-umgebung/"/>
+      <url>/eine-neue-umgebung/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Welcome to <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvLw==">Hexo<i class="fa fa-external-link-alt"></i></span>! This is your very first post. Check <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv">documentation<i class="fa fa-external-link-alt"></i></span> for more info. If you get any problems when using Hexo, you can find the answer in <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=">troubleshooting<i class="fa fa-external-link-alt"></i></span> or you can ask me on <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==">GitHub<i class="fa fa-external-link-alt"></i></span>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s">Writing<i class="fa fa-external-link-alt"></i></span></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=">Server<i class="fa fa-external-link-alt"></i></span></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s">Generating<i class="fa fa-external-link-alt"></i></span></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s">Deployment<i class="fa fa-external-link-alt"></i></span></p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Seit einiger Zeit wünscht sich mein Informatikerherz einen sauberen und übersichtlichen Workflow, wenn es um Softwareentwicklung geht. Bisher habe ich auf Projektbasis die entsprechenden Voraussetzungen geschaffen um dann beim nächsten Projekt die gleichen Vorbereitungen wieder treffen zu müssen.<br>Ich möchte endlich eine vernünftig eingerichtete Entwicklungsumgebung schaffen, bei der ich nach Bedarf zusätzliche Module einfügen kann, aber grundsätzlich für jedes meiner zukünftigen Projekte vorbereitet bin.</p><p>Meine Anforderungen sind folgende:</p><ul><li>Minimaler Reproduktionsaufwand. Bei einem Umzug auf ein anderes System muss meine Umgebung ohne eine erneute, aufwendige Konfiguration einsatzbereit gemacht werden können.</li><li>Zu 100 % nutzbar unter Windows 10, wobei ich, gerne mit Einschränkungen, hin und wieder am MacBook arbeiten möchte. Das Produktivsystem wird dann mit großer Wahrscheinlichkeit ein Unix-basiertes sein.</li><li>Als IDE sollen hauptsächlich die Programme aus dem Hause JetBrains genutzt werden. PHPStorm, DataGrip, PyCharm und IntelliJ sind meine vertrauten Umgebungen und sollen nicht ersetzt werden.</li><li>Momentan liegt der primäre Fokus meiner Projekte auf PHP und NodeJS, andere Systeme können gerne erst einmal ausgelassen werden.</li><li>Die Dokumentation aller Projekte soll möglichst simpel und übersichtlich geschehen, die Versionskontrolle via GitHub zähle ich dazu. </li></ul><p>Nachdem ich zwischen verschiedenen Lösungen hin- und hergewechselt habe, habe ich nun ein für mich recht ordentliches Konzept niedergeschrieben.</p><a id="more"></a><img data-src="/eine-neue-umgebung/mindmap.svg" class=""><p>Ich wollte hier ursprünglich meinen Workflow für neue Projekte visualisieren, am Ende ist es dann eher eine Übersicht über meine Tools geworden.<br>Ich denke, ich werde in einem der nächsten Beiträge mal auf ein paar Details eingehen, würde mich nicht wundern, wenn die Graphik nicht so eindeutig ist, wie sie mir vorkommt.</p>]]></content>
       
       
+      <categories>
+          
+          <category> Development </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> CMDer </tag>
+            
+            <tag> CSS </tag>
+            
+            <tag> Environment </tag>
+            
+            <tag> GitHub </tag>
+            
+            <tag> IDE </tag>
+            
+            <tag> JavaScript </tag>
+            
+            <tag> NodeJs </tag>
+            
+            <tag> PHP </tag>
+            
+            <tag> SQL </tag>
+            
+        </tags>
       
     </entry>
     
